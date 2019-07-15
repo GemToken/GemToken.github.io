@@ -2,7 +2,7 @@ body, html {
 	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
-	color: #777;
+	color: #555;
 	font-weight: 400;
 	width: 100% !important;
 	height: 100% !important;
@@ -250,7 +250,7 @@ header .intro-text {
 	background: linear-gradient(to right, #aa0033 0%, #FF006E 100%);
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
-#games img {
+#games img.icon {
 	margin-bottom: 20px;
 	transition: all 0.5s;
 	color: #fff;
@@ -260,6 +260,13 @@ header .intro-text {
 	border-radius: 50%;
 	background: linear-gradient(to right, #aa0033 0%, #FF006E 100%);
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
+}
+
+#games img.playstore {
+	margin-bottom: 12px;
+	color: #fff;
+	width: 200px;
+	padding: 2px;
 }
 /* About Section */
 #about {
